@@ -1,0 +1,155 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: white;
+}
+.app {
+  width: 50%;
+  margin: 20px auto;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(13, 97, 171);
+}
+
+/* TopButton */
+
+.top-cities-container {
+  display: flex;
+  justify-content: space-evenly;
+  height: 5rem;
+  width: 60%;
+  margin: 20px auto;
+  color: white;
+  font-size: 2rem;
+}
+
+.top-cities-container > button,button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+/* Inputs */
+
+.input-container {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.input-text {
+  padding: 15px;
+  font-size: 1.25rem;
+  color: black;
+}
+
+.right-temperature-text,.left-input{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  color: white;
+  margin-left: 2rem;
+  font-size: 1.25rem;
+  justify-content: center;
+}
+
+.right-temperature-text > button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+.icon {
+  width: 25px;
+  color: white;
+  margin-left: 1rem;
+}
+
+.text-space{
+  margin: 0 .3rem;
+}
+
+/* TimeAnLlocation */
+
+.time-location-container{
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-text{
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 1.25rem;
+}
+.text-bold{
+  font-size: 2rem;
+}
+
+
+/* TempretureAndDetails  component*/
+
+.weather-detail{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+  font-size: 1rem;
+  align-items: center;
+  text-align: center;
+}
+
+.degree{
+  font-size: 2rem;
+}
+
+.right-colum-detail-container{
+  font-size: .85rem;
+}
+
+.related-weather-info-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 56%;
+  margin: 2rem auto;
+}
+
+
+/* forcast-component */
+
+.forcast-container{
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  padding-bottom: 5rem;
+}
+
+.hour-forecast-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+img{
+  width: 55px;
+}
+
+.hour-forecast-item{
+  align-items: center;
+  text-align: center;
+}
